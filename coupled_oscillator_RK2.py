@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+global num_steps
+num_steps = 1000
 def coupled_pendula_RK2(s=0.02,k=0.5,m=1,L=1):
     g = 9.8
     omega_0 = (g/L)**(0.5)
